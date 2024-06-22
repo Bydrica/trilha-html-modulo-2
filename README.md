@@ -1,74 +1,55 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# Desafio de Projeto sobre criar um site
+## Objetivo do projeto:
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
-
-Além de outros recursos falados nas aulas!
-
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
-
-Abaixo como cada página deve ser criada e estruturada.
-
-### Estrutura das páginas
-
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
-
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
-
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
-
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
-
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
-
-3. **Menu** e **Footer** padrões em todas as páginas.
+Utilizar todos os conceitos aprendidos durante os módulos sobre HTML para criar um site simples.
 
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+## Alterações realizadas no HTML e Css base
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+ - Adição de **textos**
+ - Adição de **links**
+ - Adição de **imagens** no `body`, `header` e `footer`
+ - Adição de **Atributos**
+ - Adição de **listas**
+ - Adição de **parágrafos** e **elementos de texto**
+ - Adição de **formulário**
+ - Adição de **iframe**
+ - Adição de **Tabela**
+ - Adição de **seletores** e **propriedade de estilo** no `css`
+  
+A lista anterior contém apenas alguns exemplos das adições e modificações realizadas no Desafio de Projeto!
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+### Alguns links úteis que me ajudaram a esclarecer algumas dúvidas:
 
-Bora pra cima!
+ - Sobre imagens de fundo
+(https://www.w3schools.com/html/html_images_background.asp)
+ - Sobre centralizar imagem e texto
+  (https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/center)
+ - Sobre tabelas
+  (https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/table)
+  
+  #### Imagens utilizadas 
+ - Foto de Anna Shvets no Pexels: https://www.pexels.com/pt-br/foto/homem-sentado-na-cadeira-odontologica-3845810/
+ - Foto de Andrea Piacquadio: https://www.pexels.com/pt-br/foto/dentista-olhando-na-boca-de-uma-mulher-3779698/
+ - Foto de Daniel Frank: https://www.pexels.com/pt-br/foto/cadeira-e-equipamento-de-dentista-preto-e-branco-287237/
+ - Foto de Anna Shvets: https://www.pexels.com/pt-br/foto/mulher-fazendo-exame-odontologico-3845657/
+ - Foto de Cedric Fauntleroy: https://www.pexels.com/pt-br/foto/holofote-dentes-dentista-odontologista-4269694/
+ - Foto de cottonbro studio: https://www.pexels.com/pt-br/foto/menina-garota-moca-crianca-6502555/
+ - Foto de Cedric Fauntleroy: https://www.pexels.com/pt-br/foto/dentes-dentista-odontologista-estatueta-4269700/
+ - Foto de Cedric Fauntleroy: https://www.pexels.com/pt-br/foto/ipad-consultorio-clinico-clinica-4270368/
+ - Foto de Karolina Kaboompics: https://www.pexels.com/pt-br/foto/pessoa-maos-mulher-olhando-6627534/
+ - Foto de Cedric Fauntleroy: https://www.pexels.com/pt-br/foto/pessoas-consultorio-clinico-clinica-4270376/
+ - Foto de Anna Shvets: https://www.pexels.com/pt-br/foto/dentista-e-assistente-examinando-os-dentes-dos-pacientes-na-clinica-3845981/
+ - Foto de Christina Morillo: https://www.pexels.com/pt-br/foto/mulher-sorrindo-para-a-camera-1181686/
+ - Foto de Pixabay: https://www.pexels.com/pt-br/foto/homem-sorrindo-41008/
+ - Foto de Guilherme  Almeida : https://www.pexels.com/pt-br/foto/mulher-sentada-e-sorrindo-1858175/
+ - Foto de Stefan Stefancik: https://www.pexels.com/pt-br/foto/retrato-de-homem-com-camisa-cinza-91227/
+ - A imagem original foi modificada https://pixabay.com/pt/vectors/whatsapp-aplicativo-ligar-conex%C3%A3o-873316/
+ - A imagem original foi modificada https://pixabay.com/pt/vectors/instagram-aplicativo-cole%C3%A7%C3%A3o-1675670/
+ - A imagem original foi modificada https://pixabay.com/pt/vectors/o-facebook-apartamento-%C3%ADcone-plano-2429746/
+ - A imagem original foi modificada https://pixabay.com/pt/illustrations/youtube-v%C3%ADdeo-%C3%ADcone-1495277/
+
+\* _Disclaimer: Todo os direitos das imagens utilizadas no projeto pertencem aos seus respectivos donos._
+
+##### Nota
+- Houve uma modificação importante no css base, o  ` min-height:` foi alterado de ` 150px;` para ` 250px;`. O motivo da alteração foi que as imagens não se "adaptaram" bem ao tamanho proposto.
